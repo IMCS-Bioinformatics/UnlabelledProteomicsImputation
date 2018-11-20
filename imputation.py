@@ -1,6 +1,7 @@
 # This script imputes missing protein values from rna values and optional gene context file.
 # usage: imputation.py rna_file prot_file out_file [context_file]
 # missing protein values should be marked with 0 or NA in the input protein file
+
 import numpy as np
 import os
 import tensorflow as tf
@@ -246,7 +247,7 @@ if(len(argv)<3): print("usage: imputation.py rna_file prot_file out_file [contex
 # rna_fname = 'data/nci60_final_rna_without_na.txt'
 # prot_fname = 'data/nci60_final_proteomics_without_na.txt'
 # out_prot_fname = 'out_prot.csv'
-onto_fname = None#'data/GeneContext50.csv'
+onto_fname = None #'data/GeneContext50.csv'
 
 rna_fname = argv[0]
 prot_fname = argv[1]

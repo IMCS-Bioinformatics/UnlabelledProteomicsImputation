@@ -1,14 +1,10 @@
 # make and evaluate protein abundance predictions based on models M1, M2, M3 and M4
 ######################################### the main configurable parameters in section below ###############################
 # input and output file names (the input ones should be consistent with the available data files)
-#infile_rna <- "nci60_rna.xlsx"               # rna data file
 infile_rna <- "nci60_rna.tsv"                   # rna data file
-#infile_proteome <- "nci60_prot.xlsx"          # proteome data file
 infile_proteome <- "nci60_prot.tsv"             # proteome data file
 is_name_col <- 1                                # set the value to 1 if the first column contains protein names, set to 0 therwise
-# outfile_correlations <- "out_correlations.xlsx"   # output file with performance assessments
 outfile_correlations_tsv <- "out_correlations.tsv"  # output file with performance assessments
-# outfile_imputed <- "out_imputed.xlsx"         # output file with imputed data replacing 0-es and NA
 outfile_imputed_tsv <- "out_imputed.tsv"        # output file with imputed data replacing 0-es and NA
 # select model used for output file of imputed data 
 # models: M1 - all rna, M2 all prot (execpt itself), M3 - own RNA and all prot (except itself), M4 - all RNA and all prot (except itself)

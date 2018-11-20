@@ -1,7 +1,7 @@
 import sys, getopt, csv
 
 def usage():
-   print ('geneprot.py --i1 <inputfile1> --i2 <inputfile2> --o1 <outputfile1> --o2 <outputfile2> --d1 <delimiter1> --d2<delimiter2> --id <identifier> --dout<out_delimiter>')
+   print ('gen_pr_files_3.py --i1 <inputfile1> --i2 <inputfile2> --o1 <outputfile1> --o2 <outputfile2> --d1 <delimiter1> --d2<delimiter2> --id <identifier> --dout<out_delimiter>')
 
 def main(argv):
    casesensitive = False

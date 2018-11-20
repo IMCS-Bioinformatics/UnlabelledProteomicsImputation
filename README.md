@@ -1,5 +1,5 @@
 # UnlabelledProteomicsImputation
-Imputation of missing values for unlabelled MS proteomics data 
+Imputation of missing values for unlabelled MS proteomics data.
 
 
 The repository currently contains Python 3 script "gen_pr_files_3.py" for initial preparation 
@@ -16,6 +16,7 @@ The purpose of the script is from given two files with proteomics and transripto
 by imputation script contain identical number of rows (with the i-th row in each file corresponding 
 to the same gene) and identical number of columns (with the j-th column in each file corresponding 
 to the same tissue type/cell line). 
+
 To obtain useful output the input files both should contain: 1) column (identical header names in both
 files) containing IDs of genes, 2) at least one column each (identical header names in both files)
 with quantitative proteomics and transcriptomics data correspondingly, 3) at least one row each with
